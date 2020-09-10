@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobRecordingSoftwareWebService", "JobRecordingSoftwareWebService\JobRecordingSoftwareWebService.csproj", "{0405E7B9-BBC9-4C43-87DE-A9457A955A21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneDuyKhanhDataAccess", "OneDuyKhanhDataAccess\OneDuyKhanhDataAccess.csproj", "{FB531A57-5383-482C-B83F-097BA4C0142C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0405E7B9-BBC9-4C43-87DE-A9457A955A21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0405E7B9-BBC9-4C43-87DE-A9457A955A21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0405E7B9-BBC9-4C43-87DE-A9457A955A21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0405E7B9-BBC9-4C43-87DE-A9457A955A21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB531A57-5383-482C-B83F-097BA4C0142C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB531A57-5383-482C-B83F-097BA4C0142C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB531A57-5383-482C-B83F-097BA4C0142C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB531A57-5383-482C-B83F-097BA4C0142C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AB08CC5D-13E0-44AB-9212-A8356A5FB11D}
+	EndGlobalSection
+EndGlobal

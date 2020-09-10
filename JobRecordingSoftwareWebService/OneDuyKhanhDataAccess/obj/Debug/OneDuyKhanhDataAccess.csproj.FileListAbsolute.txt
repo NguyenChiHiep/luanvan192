@@ -1,0 +1,11 @@
+C:\Users\NGUYEN CHI HIEP\source\repos\JobRecordingSoftwareWebService\OneDuyKhanhDataAccess\bin\Debug\OneDuyKhanhDataAccess.dll.config
+C:\Users\NGUYEN CHI HIEP\source\repos\JobRecordingSoftwareWebService\OneDuyKhanhDataAccess\bin\Debug\OneDuyKhanhDataAccess.dll
+C:\Users\NGUYEN CHI HIEP\source\repos\JobRecordingSoftwareWebService\OneDuyKhanhDataAccess\bin\Debug\OneDuyKhanhDataAccess.pdb
+C:\Users\NGUYEN CHI HIEP\source\repos\JobRecordingSoftwareWebService\OneDuyKhanhDataAccess\bin\Debug\EntityFramework.dll
+C:\Users\NGUYEN CHI HIEP\source\repos\JobRecordingSoftwareWebService\OneDuyKhanhDataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\NGUYEN CHI HIEP\source\repos\JobRecordingSoftwareWebService\OneDuyKhanhDataAccess\bin\Debug\EntityFramework.xml
+C:\Users\NGUYEN CHI HIEP\source\repos\JobRecordingSoftwareWebService\OneDuyKhanhDataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\NGUYEN CHI HIEP\source\repos\JobRecordingSoftwareWebService\OneDuyKhanhDataAccess\obj\Debug\OneDuyKhanhDataAccess.csproj.CoreCompileInputs.cache
+C:\Users\NGUYEN CHI HIEP\source\repos\JobRecordingSoftwareWebService\OneDuyKhanhDataAccess\obj\Debug\OneDuyKhanhDataAccess.csproj.CopyComplete
+C:\Users\NGUYEN CHI HIEP\source\repos\JobRecordingSoftwareWebService\OneDuyKhanhDataAccess\obj\Debug\OneDuyKhanhDataAccess.dll
+C:\Users\NGUYEN CHI HIEP\source\repos\JobRecordingSoftwareWebService\OneDuyKhanhDataAccess\obj\Debug\OneDuyKhanhDataAccess.pdb

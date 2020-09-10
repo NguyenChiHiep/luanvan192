@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="1179dd77ff534761a0904ec99c98d4e0" Name="Diagram1" ZoomLevel="59">
+        <EntityTypeShape EntityType="OneDuyKhanh4Model.BuocHL" Width="1.5" PointX="3" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="OneDuyKhanh4Model.CaLamViec" Width="1.5" PointX="3" PointY="38.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="OneDuyKhanh4Model.ChiTietHL" Width="1.5" PointX="1.5" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="OneDuyKhanh4Model.ChiTiet" Width="1.5" PointX="3" PointY="27.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="OneDuyKhanh4Model.CongViec2Set" Width="1.5" PointX="7.5" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="OneDuyKhanh4Model.CongViecPhu" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OneDuyKhanh4Model.CongViec" Width="1.5" PointX="5.25" PointY="13" IsExpanded="true" />
+        <EntityTypeShape EntityType="OneDuyKhanh4Model.HinhDinhKem" Width="1.5" PointX="7.5" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="OneDuyKhanh4Model.LenhSanXuat" Width="1.5" PointX="0.75" PointY="25.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="OneDuyKhanh4Model.May" Width="1.5" PointX="3" PointY="12.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="OneDuyKhanh4Model.NguyenCongHL" Width="1.5" PointX="0.75" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="OneDuyKhanh4Model.NguyenCong" Width="1.5" PointX="8.25" PointY="11.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="OneDuyKhanh4Model.NhanVien" Width="1.5" PointX="3" PointY="18.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="OneDuyKhanh4Model.ThongKeCongViecTrongNgay" Width="1.5" PointX="5.25" PointY="24.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="OneDuyKhanh4Model.ToSX" Width="1.5" PointX="0.75" PointY="16.5" IsExpanded="true" />
+        <AssociationConnector Association="OneDuyKhanh4Model.BuocHL_NguyenCongHL" ManuallyRouted="false" />
+        <AssociationConnector Association="OneDuyKhanh4Model.CongViec_BuocHL" ManuallyRouted="false" />
+        <AssociationConnector Association="OneDuyKhanh4Model.FK_ThongKeCongViecTrongNgay_Ca" ManuallyRouted="false" />
+        <AssociationConnector Association="OneDuyKhanh4Model.CongViec_ChiTietHL" ManuallyRouted="false" />
+        <AssociationConnector Association="OneDuyKhanh4Model.NguyenCongHL_ChiTietHL" ManuallyRouted="false" />
+        <AssociationConnector Association="OneDuyKhanh4Model.ChiTiet_LenhSanXuat" ManuallyRouted="false" />
+        <AssociationConnector Association="OneDuyKhanh4Model.CongViec_ChiTiet" ManuallyRouted="false" />
+        <AssociationConnector Association="OneDuyKhanh4Model.NguyenCong_ChiTiet" ManuallyRouted="false" />
+        <AssociationConnector Association="OneDuyKhanh4Model.CongViec2_CongViec" ManuallyRouted="false" />
+        <AssociationConnector Association="OneDuyKhanh4Model.CongViec_CongViecPhu" ManuallyRouted="false" />
+        <AssociationConnector Association="OneDuyKhanh4Model.CongViec_May" ManuallyRouted="false" />
+        <AssociationConnector Association="OneDuyKhanh4Model.CongViec_NguyenCongHL" ManuallyRouted="false" />
+        <AssociationConnector Association="OneDuyKhanh4Model.CongViec_NhanVien" ManuallyRouted="false" />
+        <AssociationConnector Association="OneDuyKhanh4Model.FK_CongViecs_CongViec_NguyenCong" ManuallyRouted="false" />
+        <AssociationConnector Association="OneDuyKhanh4Model.FK_CongViecs_LenhSanXuat" ManuallyRouted="false" />
+        <AssociationConnector Association="OneDuyKhanh4Model.HinhDinhKem_CongViec" ManuallyRouted="false" />
+        <AssociationConnector Association="OneDuyKhanh4Model.LenhSanXuat_LenhSanXuat" ManuallyRouted="false" />
+        <AssociationConnector Association="OneDuyKhanh4Model.FK_NguyenCongs_MayKH" ManuallyRouted="false" />
+        <AssociationConnector Association="OneDuyKhanh4Model.May_ToSX" ManuallyRouted="false" />
+        <AssociationConnector Association="OneDuyKhanh4Model.FK_NguyenCongs_NguoiVanHanhDK" ManuallyRouted="false" />
+        <AssociationConnector Association="OneDuyKhanh4Model.FK_NguyenCongs_NguoiVanHanhTT" ManuallyRouted="false" />
+        <AssociationConnector Association="OneDuyKhanh4Model.FK_NguyenCongs_NhanVienKH" ManuallyRouted="false" />
+        <AssociationConnector Association="OneDuyKhanh4Model.FK_NguyenCongs_ToSXKH" ManuallyRouted="false" />
+        <AssociationConnector Association="OneDuyKhanh4Model.NguyenCong_ToSX" ManuallyRouted="false" />
+        <AssociationConnector Association="OneDuyKhanh4Model.FK_ThongKeCongViecTrongNgay_NhanVien" ManuallyRouted="false" />
+        <AssociationConnector Association="OneDuyKhanh4Model.NhanVien_ToSX" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="OneDuyKhanh4Model.BaoTrangThaiMay" Width="1.5" PointX="4.375" PointY="3.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

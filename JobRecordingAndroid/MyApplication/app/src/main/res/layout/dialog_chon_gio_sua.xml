@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <CheckBox
+        android:id="@+id/checkboxAll"
+        android:text="Tất cả"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <CheckBox
+        android:id="@+id/checkboxBD"
+        android:text="Giờ Bắt Đầu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <CheckBox
+        android:id="@+id/checkboxKTSetup"
+        android:text="Giờ Kết Thúc Setup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <CheckBox
+        android:text="Giờ Bắt đầu chạy máy"
+        android:id="@+id/checkboxBDChay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <CheckBox
+        android:id="@+id/checkboxTD1"
+        android:text="Giờ Tạm Dừng 1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <CheckBox
+        android:text="Giờ Tiếp Tục 1"
+        android:id="@+id/checkboxTT1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <CheckBox
+        android:text="Giờ Tạm Dừng 2"
+        android:id="@+id/checkboxTD2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <CheckBox
+        android:text="Giờ Tiếp Tục 2"
+        android:id="@+id/checkboxTT2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <CheckBox
+        android:text="Giờ Kết thúc"
+        android:id="@+id/checkboxKT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

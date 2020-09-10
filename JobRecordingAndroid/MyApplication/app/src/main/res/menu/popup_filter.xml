@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Công Việc Gia Công"
+        android:id="@+id/item_chinh"/>
+    <item android:title="Công Việc Khác"
+        android:id="@+id/item_phu"/>
+    <item android:title="Thông báo máy hỏng"
+        android:id="@+id/item_thongbaohong" />
+    <item android:title="Thông báo máy chờ"
+        android:id="@+id/item_thongbaottm" />
+    <item android:title="Nhật Kí Công Việc"
+        android:id="@+id/item_nhancong"/>
+</menu>

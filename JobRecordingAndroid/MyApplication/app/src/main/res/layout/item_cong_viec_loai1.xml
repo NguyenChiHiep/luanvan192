@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1">
+        <LinearLayout
+            android:weightSum="5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Mã Chi Tiết: "
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"/>
+            <TextView
+                android:text="TextView"
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvChiTiet" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/lineNguyenCong"
+            android:weightSum="5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Nguyên Công: "
+                android:layout_width="0dp"
+                android:layout_weight="1.7"
+                android:layout_height="wrap_content"
+                android:textStyle="bold" />
+
+            <TextView
+                android:text=""
+                android:layout_width="0dp"
+                android:layout_weight="3.3"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvNguyenCong" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/lineBuoc"
+            android:weightSum="5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Bước: "
+                android:layout_width="0dp"
+                android:layout_weight="1.7"
+                android:layout_height="wrap_content"
+                android:textStyle="bold" />
+
+            <TextView
+                android:text=""
+                android:layout_width="0dp"
+                android:layout_weight="3.3"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvBuoc" />
+        </LinearLayout>
+        <LinearLayout
+            android:weightSum="5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Mã Máy: "
+                android:layout_width="0dp"
+                android:layout_weight="1.7"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"/>
+            <TextView
+                android:text="0000"
+                android:layout_width="0dp"
+                android:layout_weight="3.3"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvMay" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3.3"
+                android:text="Giờ bắt đầu: "
+                android:textStyle="bold" />
+            <TextView
+                android:layout_marginLeft="12dp"
+                android:textSize="13sp"
+                android:text="HH:mm"
+                android:layout_weight="1.2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvGioBD" />
+            <TextView
+                android:text=""
+                android:id="@+id/tvGioBD_BS"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1.5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorGioBS" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/lineGioKTSetup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Giờ kết thúc setup: "
+                android:layout_weight="3.3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_marginLeft="12dp"
+                android:text="HH:mm"
+                android:layout_weight="1.2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvGioKTSetup" />
+            <TextView
+                android:text=""
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1.5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorGioBS"
+                android:id="@+id/tvGioKTSetup_BS"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/lineGioBDChay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Giờ bắt đầu chạy: "
+                android:layout_weight="3.3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_marginLeft="12dp"
+                android:textSize="13sp"
+                android:text="HH:mm"
+                android:layout_weight="1.2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvGioBDChay" />
+            <TextView
+                android:text=""
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1.5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorGioBS"
+                android:id="@+id/tvGioBDChay_BS"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/lineTD1"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Giờ Tạm Dừng 1: "
+                android:layout_weight="3.3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_marginLeft="12dp"
+                android:text="HH:mm"
+                android:layout_weight="1.2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvGioTD1" />
+            <TextView
+                android:text=""
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1.5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorGioBS"
+                android:id="@+id/tvGioTD1_BS"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/lineTT1"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Giờ Tiếp Tục 1:"
+                android:layout_weight="3.3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_marginLeft="12dp"
+                android:text="HH:mm"
+                android:layout_weight="1.2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvGioTT1" />
+            <TextView
+                android:text=""
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1.5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorGioBS"
+                android:id="@+id/tvGioTT1_BS"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/lineTD2"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Giờ Tạm Dừng 2:"
+                android:layout_weight="3.3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_marginLeft="12dp"
+                android:text="HH:mm"
+                android:layout_weight="1.2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvGioTD2" />
+            <TextView
+                android:text=""
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1.5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvGioTD2_BS"
+                android:textColor="@color/colorGioBS" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/lineTT2"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Giờ Tiếp Tục 2:"
+                android:layout_weight="3.3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_marginLeft="12dp"
+                android:text="HH:mm"
+                android:layout_weight="1.2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvGioTT2" />
+            <TextView
+                android:text=""
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1.5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvGioTT2_BS"
+                android:textColor="@color/colorGioBS" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Giờ kết thúc:"
+                android:layout_width="0dp"
+                android:layout_weight="3.3"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"/>
+            <TextView
+                android:text="HH:mm"
+                android:textSize="13sp"
+                android:layout_weight="1.2"
+                android:layout_marginLeft="10dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvGioKT" />
+            <TextView
+                android:text=""
+                android:layout_weight="1.5"
+                android:layout_marginLeft="10dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorGioBS"
+                android:id="@+id/tvGioKT_BS" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_weight="7"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:text="Slg Đạt: "
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:text="0"
+                        android:layout_width="0dp"
+                        android:layout_weight="1.5"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tvTongGood" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:text="Slg Ko Đạt: "
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:text="0"
+                        android:layout_width="0dp"
+                        android:layout_weight="1.5"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tvTongNoGood" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lnDoDang"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:text="Slg Dở Dang: "
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:text="0"
+                        android:layout_width="0dp"
+                        android:layout_weight="1.5"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tvTongDoDang" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnMenu"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_weight="2.5"
+                android:focusable="false"
+                android:text="Menu" />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/next"
+            android:layout_weight="8"
+            android:alpha="0.3"
+            android:scaleType="centerInside"/>
+
+</LinearLayout>

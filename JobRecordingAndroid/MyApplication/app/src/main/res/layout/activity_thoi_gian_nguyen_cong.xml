@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ThoiGianNguyenCongActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView android:layout_width="match_parent"
+            android:textSize="18sp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Bảng báo cáo công việc hàng ngày"
+            android:gravity="center"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:id="@+id/linearLayoutChonCa"
+            android:background="@color/colorPrimary"
+            android:layout_weight="4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="0dp"
+                android:textColor="#FFFFFF"
+                android:layout_weight="3"
+                android:layout_height="wrap_content"
+                android:text="Chọn Ca"/>
+            <TextView
+                android:layout_width="0dp"
+                android:textColor="#FFFFFF"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewChonCa"
+                android:text="CA"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewNgay"
+            android:text="Ngày"/>
+        <TextView
+            android:text="Tổng t/g tăng ca max: "
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="7"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewBatDauCa"
+                android:text="Bắt đầu ca"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:layout_height="wrap_content"
+                android:id="@+id/textViewKetThucCa"
+                android:text="Kết thúc ca"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textViewBatDauCaCC"
+                    android:text="Bắt đầu ca"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textViewKetThucCaCC"
+                    android:text="Kết thúc ca"/>
+            </LinearLayout>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/edtTongTimeLamViec"
+            android:text="Tổng t/g làm việc max: "
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.2dp"
+                android:background="@android:color/darker_gray"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:layout_height="wrap_content"
+                    android:text="Công Việc"/>
+                <View
+                    android:layout_width="0.2dp"
+                    android:layout_height="fill_parent"
+                    android:background="@android:color/darker_gray"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:layout_height="wrap_content"
+                    android:text="Mã Chi Tiết"/>
+                <View
+                    android:layout_width="0.2dp"
+                    android:layout_height="fill_parent"
+                    android:background="@android:color/darker_gray"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:layout_height="wrap_content"
+                    android:text="Đ/tg làm việc"/>
+                <View
+                    android:layout_width="0.2dp"
+                    android:layout_height="fill_parent"
+                    android:background="@android:color/darker_gray"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="wrap_content"
+                    android:text="Máy Gia Công"/>
+                <View
+                    android:layout_width="0.2dp"
+                    android:layout_height="fill_parent"
+                    android:background="@android:color/darker_gray"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1.5"
+                    android:layout_height="wrap_content"
+                    android:text="Tg Setup"/>
+                <View
+                    android:layout_width="0.2dp"
+                    android:layout_height="fill_parent"
+                    android:background="@android:color/darker_gray"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1.5"
+                    android:layout_height="wrap_content"
+                    android:text="Tg Gia Công"/>
+                <View
+                    android:layout_width="0.2dp"
+                    android:layout_height="fill_parent"
+                    android:background="@android:color/darker_gray"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1.5"
+                    android:layout_height="wrap_content"
+                    android:text="Tg Nhân Công"/>
+                <View
+                    android:layout_width="0.2dp"
+                    android:layout_height="fill_parent"
+                    android:background="@android:color/darker_gray"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1.5"
+                    android:layout_height="wrap_content"
+                    android:text="Tg Tăng Ca"/>
+                <View
+                    android:layout_width="0.2dp"
+                    android:layout_height="fill_parent"
+                    android:background="@android:color/darker_gray"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:layout_height="wrap_content"
+                    android:text="Ghi chú"/>
+                <View
+                    android:layout_width="0.2dp"
+                    android:layout_height="fill_parent"
+                    android:background="@android:color/darker_gray"/>
+            </LinearLayout>
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.4dp"
+                android:background="@android:color/darker_gray"/>
+            <ListView
+                android:id="@+id/listViewNC"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+    </HorizontalScrollView>
+</LinearLayout>

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView android:text="Gõ theo mẫu HH:mm, vd 13:05"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"/>
+            <LinearLayout
+                android:id="@+id/lnTextBD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:text="Giờ bắt đầu : " />
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="wrap_content"
+                    android:inputType="time"
+                    android:ems="10"
+                    android:hint="HH:mm"
+                    android:id="@+id/editGioBD" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/lnTextKTSetup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:text="Giờ KThúc Setup : " />
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="wrap_content"
+                    android:inputType="time"
+                    android:ems="10"
+                    android:hint="HH:mm"
+                    android:id="@+id/editGioKTSetup" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/lnTextBDChay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:text="Giờ BĐầu chạy máy : " />
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="wrap_content"
+                    android:inputType="time"
+                    android:ems="10"
+                    android:hint="HH:mm"
+                    android:id="@+id/editGioBDChay" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/lnTextTD1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView android:text="Giờ tạm dừng 1: "
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:layout_height="wrap_content"/>
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="wrap_content"
+                    android:inputType="time"
+                    android:ems="10"
+                    android:hint="HH:mm"
+                    android:id="@+id/editGioTD1" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/lnTextTT1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView android:text="Giờ tiếp tục 1: "
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:layout_height="wrap_content"/>
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="wrap_content"
+                    android:inputType="time"
+                    android:ems="10"
+                    android:hint="HH:mm"
+                    android:id="@+id/editGioTT1" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/lnTextTD2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView android:text="Giờ tạm dừng 2: "
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:layout_height="wrap_content"/>
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="wrap_content"
+                    android:inputType="time"
+                    android:ems="10"
+                    android:hint="HH:mm"
+                    android:id="@+id/editGioTD2" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/lnTextTT2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView android:text="Giờ tiếp tục 2: "
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:layout_height="wrap_content"/>
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="wrap_content"
+                    android:inputType="time"
+                    android:ems="10"
+                    android:hint="HH:mm"
+                    android:id="@+id/editGioTT2" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/lnTextKT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView android:text="Giờ kết thúc: "
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:layout_height="wrap_content" />
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="wrap_content"
+                    android:inputType="time"
+                    android:ems="10"
+                    android:hint="HH:mm"
+                    android:id="@+id/editGioKT" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lnTextNC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView android:text="TG nhân công: "
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="wrap_content" />
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:ems="10"
+                    android:hint="Nhập thời gian(phút)"
+                    android:id="@+id/editGioNC" />
+            </LinearLayout>
+
+            <TextView
+                android:text="Lí do (gõ thêm vào ghi chú)"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lines="3"
+                android:id ="@+id/editGhiChu"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

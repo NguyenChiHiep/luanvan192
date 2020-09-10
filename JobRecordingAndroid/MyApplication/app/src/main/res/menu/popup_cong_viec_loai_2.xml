@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Kết thúc"
+        android:id="@+id/item_ket_thuc"/>
+
+    <item android:title="Sửa giờ"
+        android:id="@+id/item_sua_gio"/>
+
+    <item android:title="Chụp hình"
+        android:id="@+id/item_chup_hinh"/>
+
+    <item android:title="Ghi chú"
+        android:id="@+id/item_ghi_chu"/>
+</menu>

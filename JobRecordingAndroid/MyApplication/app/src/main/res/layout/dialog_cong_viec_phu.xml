@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:textSize="22sp"
+        android:layout_margin="5dp"
+        android:id="@+id/item_LSX"
+        android:background="#2F685512"
+        android:text="Lệnh Sản Xuất"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textSize="22sp"
+        android:layout_margin="5dp"
+        android:id="@+id/item_May"
+        android:text="Máy"
+        android:background="#20122068"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textSize="22sp"
+        android:layout_margin="5dp"
+        android:background="#2F685512"
+        android:text="Chi tiết"
+        android:id="@+id/item_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textSize="22sp"
+        android:layout_margin="5dp"
+        android:background="#20122068"
+        android:id="@+id/item_extra"
+        android:text="Khác-Ghi chú"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

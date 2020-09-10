@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Thêm số lượng"
+        android:id="@+id/item_them_slg"/>
+    <group>
+        <item android:id="@+id/item_ktset_bdchay"
+            android:title="Kết thúc Setup"/>
+        <item android:id="@+id/item_pause_resume"
+            android:title="Tạm dừng" />
+        <item android:title="Kết Thúc công việc"
+            android:id="@+id/item_dung"/>
+    </group>
+    <group>
+        <item android:title="Ghi chú"
+            android:id="@+id/item_ghi_chu"/>
+        <item android:title="Sửa giờ"
+            android:id="@+id/item_sua_gio"/>
+        <item android:title="Copy"
+            android:id="@+id/item_copy_cv"/>
+    </group>
+</menu>
